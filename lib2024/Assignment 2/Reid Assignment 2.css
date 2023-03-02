@@ -1,0 +1,117 @@
+body {
+  background:darkslategrey;
+  font-family: "Arial";
+}
+
+.head {
+  font-style: italic;
+  max-width: 1000px;
+  border: 4px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.wrap {
+  max-width: 1650px;
+  margin: auto;
+  overflow: hidden;
+  border: 4px solid white;
+  position: relative;
+  display: flex;
+}
+.leftblock,
+.rightblock {
+  padding: 20px;
+  text-align: justify;
+  width: calc(50% + 220px);
+}
+.leftblock:before,
+.rightblock:before {
+  float: right;
+  width: 20px;
+  height: 70px;
+  content: "";
+}
+.rightblock:before {
+  float: left;
+}
+.img {
+  float: right;
+  clear: right;
+  margin: 20px 0px 20px 20px;
+  border-radius: 50%;
+  shape-outside: circle(50%);
+}
+.rightblock .img {
+  float: left;
+  margin: 20px 20px 20px 0px;
+  border: solid white;
+  border-width: 4px;
+  clear: left;
+}
+.leftblock .text {
+  margin-right: 220px;
+  font-size: 15pt;
+}
+.rightblock .text {
+  margin-left: 220px;
+  font-size: 15pt;
+}
+.rightblock {
+  margin-left: -220px;
+}
+.leftblock {
+  margin-right: -220px;
+}
+
+.watermark {
+ font-size: 25pt;
+ position: fixed;
+ transform: translate(925px, 500px) rotate(320deg) scale(4);
+ opacity: 0.1;
+ z-index: 99;
+ color: white;
+}
+
+.frontimage {
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  width: 13%;
+  padding: 20px;
+}
+.frontimage .caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 15pt;
+}
+
+.dash{
+  margin: auto;
+  padding-bottom: 10px;
+  max-width: 1700px;
+}
+
+.more{
+  font-style: italic;
+  font-size: ;
+  max-width: 1000px;
+  border: 4px solid white;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+}
+.table {
+  display: grid;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.table .bookcovers {
+  text-align: center;
+}
