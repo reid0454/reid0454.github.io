@@ -13,6 +13,7 @@ body {
   padding: 20px;
 }
 
+/*lines 17-68 to wrap text around images*/
 .wrap {
   max-width: 1650px;
   margin: auto;
@@ -66,15 +67,17 @@ body {
   margin-right: -220px;
 }
 
+/*to manipulate watermark text*/
 .watermark {
  font-size: 25pt;
  position: fixed;
- transform: translate(925px, 500px) rotate(320deg) scale(4);
- opacity: 0.1;
+ transform: translate(925px, 500px) rotate(-40deg) scale(4);
+ opacity: 0.05;
  z-index: 99;
  color: white;
 }
 
+/*width used to center image on page*/
 .frontimage {
   display: block;
   margin-left: auto;  
@@ -88,15 +91,16 @@ body {
   font-size: 15pt;
 }
 
-.dash{
+/*to limit width of dashed line divider*/
+.dash {
   margin: auto;
   padding-bottom: 10px;
   max-width: 1700px;
 }
 
-.more{
+/*format and center text heading for section*/
+.more {
   font-style: italic;
-  font-size: ;
   max-width: 1000px;
   border: 4px solid white;
   margin-top: 30px;
@@ -105,13 +109,12 @@ body {
   text-align: center;
   padding: 20px;
 }
+/*to format and center cover photo grid*/
 .table {
   display: grid;
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-}
-.table .bookcovers {
   text-align: center;
 }
