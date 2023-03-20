@@ -1,0 +1,76 @@
+
+body {
+  background-image: url("bg.jpg");
+  font-family: "Calibri";
+}
+
+.head {
+  transform: TranslateY(50px);
+  font-size: 30pt;
+  font-style: italic;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.recent_reads {
+  position:relative;
+  display: flex;
+  max-width: 4000px;
+  justify-content: center;
+  padding: 50px;
+}
+.recent_reads img{
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 6px solid white;
+}
+
+/*used to animate images when hovering*/
+.recent_reads :hover {
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+  height: 500px;
+  width: auto;
+}
+
+.head2 {
+  transform: TranslateY(50px);
+  font-size: 30pt;
+  font-style: italic;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.next_reads {
+  position:relative;
+  display: flex;
+  max-width: 4000px;
+  justify-content: center;
+  padding: 50px;
+}
+.next_reads img{
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 6px solid white;
+}
+
+.next_reads :hover {
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+  height: 500px;
+  width: auto;
+}
