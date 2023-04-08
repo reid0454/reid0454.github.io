@@ -1,0 +1,86 @@
+body {
+  background-color: lightslategray;
+  color: white;
+}
+
+.head {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.description {
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-size: 17pt;
+}
+
+.gauge {
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  width: 13%;
+  padding-bottom: 20px;
+  filter: invert(1);
+  opacity: 85%;
+}
+
+.measure {
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-size: 18pt;
+}
+
+.converter {
+  max-width: 300px;
+  padding: 30px;
+  display: block;
+  justify-content: center;
+  margin:auto;
+  overflow: hidden;
+  border: 3px solid white;
+}
+
+#convert {
+  background-color: darkseagreen;
+  border-color: darkseagreen;
+  color: white;
+}
+#convert:hover {
+  background-color: seagreen;
+  color:white;
+  border-color: white;
+}
+
+#clear {
+  background-color: darksalmon;
+  border-color: darksalmon;
+  color: white;
+}
+#clear:hover {
+  background-color: indianred;
+  color: white;
+  border-color: white;
+}
+
+input {
+  display: block;
+  padding: 4px;
+  border-color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 15pt;
+  background-color: white;
+}
+
+button {
+  padding: 4px;
+  padding-right: 6px;
+  font-size: 15pt;
+}
