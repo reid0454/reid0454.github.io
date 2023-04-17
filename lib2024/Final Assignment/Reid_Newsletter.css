@@ -1,0 +1,122 @@
+
+body {
+  background-color: #222222;
+  color: #DBDBDB;
+}
+
+.contact {
+  display: fixed;
+  color: #222222;
+  background-color: #DBDBDB;
+  transform: translateY(13px);
+  font-size: 13pt;
+  position: fixed;
+  font-family: arial;
+  font-weight: lighter;
+  margin-left: 60px;
+}
+.contact:hover {
+  font-family: arial;
+  background-color: #222222;
+  color:#DBDBDB;
+  border: 2px solid #DBDBDB;
+}
+.newsletter {
+  display: fixed;
+  color: #222222;
+  background-color: #DBDBDB;
+  font-size: 13pt;
+  transform: translateY(13px);
+  position: fixed;
+  font-family: arial;
+  font-weight: lighter;
+  margin-left: 200px;
+}
+.newsletter:hover {
+  font-family: arial;
+  background-color: #222222;
+  color:#DBDBDB;
+  border: 2px solid #DBDBDB;
+}
+
+.head {
+  transform: TranslateY(10px);
+  color: #DBDBDB;
+  font-size: 16pt;
+  font-style: italic;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.line1 {
+  border-bottom: 2px solid #DBDBDB;
+}
+
+.browse {
+  padding-bottom: 0px;
+  font-size: 80pt;
+  font-family: arial;
+  font-weight: lighter;
+  letter-spacing: .6rem;
+  margin-left: 400px;
+  transform: translateY(-20px);
+}
+
+.subscribe {
+  width: 500px;
+  margin: auto;
+}
+
+.formStyle { 
+  background-color: transparent;
+  padding: 20px; 
+  width: 400px; 
+  margin-bottom: 50px; 
+  border-bottom-width: 1px; 
+  border-bottom-style: solid; 
+  border-bottom-color: #DBDBDB; 
+  border-top-style: none; 
+  border-right-style: none; 
+  border-left-style: none; 
+  font-size: 1.3em;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.formButton {
+  font-family: arial;
+  float: right;
+  background-color:#DBDBDB;
+  display:inline-block;
+  color: #222222;
+  font-size:28px;
+  font-weight: 500;
+  padding:6px 24px;
+  margin-top: 15px;
+  margin-right: 60px;
+  text-decoration:none;
+}
+
+.formButton:hover {
+  font-family: arial;
+  background-color: #222222;
+  color:#DBDBDB;
+  border: 2px solid #DBDBDB;
+}
+
+.formButton:active {
+  position:relative;
+  top:3px;
+}
+
+/*remove the outline that appears on clicking the input textbox*/
+input:focus {
+  outline: none;
+}
+
+.lines {
+  transform: translateY(100px);
+}

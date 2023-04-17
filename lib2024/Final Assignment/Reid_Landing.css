@@ -1,0 +1,119 @@
+
+body {
+  background-color: #222222;
+  color: #DBDBDB;
+}
+
+.contact {
+  display: fixed;
+  color: #222222;
+  background-color: #DBDBDB;
+  transform: translateY(13px);
+  font-size: 13pt;
+  position: fixed;
+  font-family: arial;
+  font-weight: lighter;
+  margin-left: 60px;
+}
+.contact:hover {
+  font-family: arial;
+  background-color: #222222;
+  color:#DBDBDB;
+  border: 2px solid #DBDBDB;
+}
+.newsletter {
+  display: fixed;
+  color: #222222;
+  background-color: #DBDBDB;
+  font-size: 13pt;
+  transform: translateY(13px);
+  position: fixed;
+  font-family: arial;
+  font-weight: lighter;
+  margin-left: 200px;
+}
+.newsletter:hover {
+  font-family: arial;
+  background-color: #222222;
+  color:#DBDBDB;
+  border: 2px solid #DBDBDB;
+}
+
+.head {
+  transform: TranslateY(10px);
+  font-size: 16pt;
+  font-style: italic;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.line1 {
+  border-bottom: 2px solid #DBDBDB;
+}
+
+.browse {
+  padding-bottom: 0px;
+  font-size: 80pt;
+  font-family: arial;
+  font-weight: lighter;
+  letter-spacing: .6rem;
+  margin-left: 400px;
+  transform: translateY(-20px);
+}
+.description {
+  display: fixed;
+  position: fixed;
+  font-family: arial;
+  font-weight: 600;
+  margin-left: 600px;
+  transform: translateY(-130px);
+}
+
+.gallery {
+  transform: translateY(-20px);
+  position:relative;
+  display: flex;
+  max-width: 60000px;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.gallery img{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.gallery :hover {
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  transform: scale(1.1);
+  transition: 0.4s ease-in-out;
+  height: 450px;
+  width: auto;
+}
+
+.lines {
+  transform: translateY(60px);
+}
+
+.lines .line2 {
+  border-bottom: 4px solid #DBDBDB;
+}
+.lines .line3 {
+  border-bottom: 8px solid #DBDBDB;
+}
+.lines .line4 {
+  border-bottom: 16px solid #DBDBDB;
+}
+.lines .line5 {
+  border-bottom: 32px solid #DBDBDB;
+}
+.lines .line6 {
+  border-bottom: 64px solid #DBDBDB;
+}
+.lines .line7 {
+  border-bottom: 100px solid #DBDBDB;
+}
